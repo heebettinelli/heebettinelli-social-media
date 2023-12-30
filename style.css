@@ -17,31 +17,23 @@
     *{
         box-sizing: border-box;
     }
-}
 
-/* versao mobile 360px a 813px */
+    img{
+        align-items: center;
+        height: auto;
+        margin: auto;
+    }
 
-@media screen and (min-width: 360px) and (max-width: 812px) {
     body{
         background-color: var(--cor-background);
         background-size: cover;
-    }
-
-    img{
-        width: 55%;
-        height: 35%;
-        padding: 0px;
-        margin: 0px;
     }
 
     h2{
         color: var(--cor-destaque);
         font-family: var(--font-corpo);
         text-align: center;
-        font-size: 16px;
-        padding: 10px;
-        align-items: center;
-        
+        padding: auto; 
     }
 
     main{
@@ -61,7 +53,17 @@
     .logo {
         font-family: var(--font-destaque);
         color: var(--cor-destaque);
-        font-size: 8vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FirstButtom, .SecondButtom, .ThirdButtom {
+        background-color: var(--cor-base);
+        border-radius: 10px;
+        border: 2px solid var(--cor-destaque);
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
@@ -71,39 +73,6 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        
-    }
-
-    .FirstButtom {
-        height: 8%;
-        width: 75%;
-        height: 70px;
-        background-color: var(--cor-base);
-        border-radius: 10px;
-        border: 2px solid var(--cor-destaque);
-        margin-top: 10px;
-        
-        
-    }
-
-    .SecondButtom {
-        height: 8%;
-        width: 75%;
-        height: 70px;
-        background-color: var(--cor-base);
-        border-radius: 10px;
-        border: 2px solid var(--cor-destaque);
-        margin-top: 10px;
-    }
-
-    .ThirdButtom {
-        height: 8%;
-        width: 75%;
-        height: 70px;
-        background-color: var(--cor-base);
-        border-radius: 10px;
-        border: 2px solid var(--cor-destaque);
-        margin-top: 10px;
     }
 
     a {
@@ -113,8 +82,34 @@
 
     .footer{
         color: var(--cor-base);
-        padding-top: 11%;
         font-size: small;
+    }
+}
+
+/* versao mobile 360px a 813px */
+
+@media screen and (min-width: 360px) and (max-width: 812px) {
+    
+
+    img{
+        width: 60%;
+    }
+
+    h2{
+        font-size: 4vw;
+    }
+
+    .logo {
+        font-size: 9vw;
+    }
+
+    .FirstButtom, .SecondButtom, .ThirdButtom {
+    height: 10vh;
+    width: 75%;
+}
+
+    .footer{
+        padding-top: 11%;
     }
    
 }
@@ -123,101 +118,26 @@
 
 @media screen and (min-width: 812px) and (max-width: 1950px) {
 
-
-    body{
-        background-color: var(--cor-base);
-        background-size: cover;
-    }
-
     img{
-        width: 28%;
-        height: 28%;
-        padding: 0px;
-        margin: 0px;
+        width: 20%;
     }
 
     h2{
-        color: var(--cor-destaque);
-        font-family: var(--font-corpo);
-        text-align: center;
-        font-size: 16px;
-        padding: 15px; 
-        
-    }
-
-    main{
-        text-align: center;
-        padding: 5px;
-        margin: auto;
-        background-color: var(--cor-background);
-        width: 95vw;
-        height: 90vh;
-        border-radius: 10px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        font-size: 2vw;
     }
 
     .logo {
-        font-family: var(--font-destaque);
-        color: var(--cor-destaque);
         font-size: 3.5vw;
-        align-items: center;
-        justify-content: center;
     }
 
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        
-    }
-
-    .FirstButtom {
-        height: 8%;
+    .FirstButtom, .SecondButtom, .ThirdButtom {
+        height: 10vh;
         width: 40%;
-        height: 80px;
-        background-color: var(--cor-base);
-        border-radius: 10px;
-        border: 2px solid var(--cor-destaque);
-        margin-top: 10px;
-        
-        
-    }
-
-    .SecondButtom {
-        height: 8%;
-        width: 40%;
-        height: 80px;
-        background-color: var(--cor-base);
-        border-radius: 10px;
-        border: 2px solid var(--cor-destaque);
-        margin-top: 10px;
-    }
-
-    .ThirdButtom {
-        height: 8%;
-        width: 40%;
-        height: 80px;
-        background-color: var(--cor-base);
-        border-radius: 10px;
-        border: 2px solid var(--cor-destaque);
-        margin-top: 10px;
-    }
-
-    a {
-        text-decoration: none;
-        text-align: center;
     }
 
     .footer{
-        color: var(--cor-base);
         padding-top: 1%;
-        font-size: small;
     }
    
-
 }
     
