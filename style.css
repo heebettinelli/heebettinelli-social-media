@@ -28,7 +28,7 @@
     }
 
     img{
-        width: 45%;
+        width: 55%;
         height: 35%;
         padding: 0px;
         margin: 0px;
@@ -40,6 +40,7 @@
         text-align: center;
         font-size: 16px;
         padding: 15px; 
+        align-items: center;
         
     }
 
@@ -60,7 +61,7 @@
     .logo {
         font-family: var(--font-destaque);
         color: var(--cor-destaque);
-        font-size: 6vw;
+        font-size: 8vw;
         align-items: center;
         justify-content: center;
     }
@@ -75,7 +76,7 @@
 
     .FirstButtom {
         height: 8%;
-        width: 65%;
+        width: 75%;
         height: 70px;
         background-color: var(--cor-base);
         border-radius: 10px;
@@ -87,7 +88,7 @@
 
     .SecondButtom {
         height: 8%;
-        width: 65%;
+        width: 75%;
         height: 70px;
         background-color: var(--cor-base);
         border-radius: 10px;
@@ -97,7 +98,7 @@
 
     .ThirdButtom {
         height: 8%;
-        width: 65%;
+        width: 75%;
         height: 70px;
         background-color: var(--cor-base);
         border-radius: 10px;
@@ -112,7 +113,7 @@
 
     .footer{
         color: var(--cor-base);
-        padding-top: 5%;
+        padding-top: 11%;
         font-size: small;
     }
    
