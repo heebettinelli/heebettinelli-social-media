@@ -34,6 +34,7 @@
         font-family: var(--font-corpo);
         text-align: center;
         padding: auto; 
+        font-weight: lighter;
     }
 
     main{
