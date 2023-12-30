@@ -11,7 +11,7 @@ Personalized Social-Linking
 - Html: Markup language
 - Css: Styling Sheets
 - VS Code: Code editor
-- Vercel: HHosting platform
+- Vercel: Hosting platform
 
 <h3>How to use:</h3>
 
