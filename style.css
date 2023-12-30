@@ -1,0 +1,223 @@
+@charset "URF-8";
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+:root {
+    --cor-background: #131515;
+    --cor-destaque: #407bff;
+    --cor-base: #ffffff;
+
+    --font-destaque: 'Satisfy', cursive;
+    --font-corpo:'Playfair Display', serif;
+}
+
+@media all {
+    *{
+        box-sizing: border-box;
+    }
+}
+
+/* versao mobile 360px a 813px */
+
+@media screen and (min-width: 360px) and (max-width: 812px) {
+    body{
+        background-color: var(--cor-base);
+        background-size: cover;
+    }
+
+    img{
+        width: 45%;
+        height: 35%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    h2{
+        color: var(--cor-destaque);
+        font-family: var(--font-corpo);
+        text-align: center;
+        font-size: 16px;
+        padding: 15px; 
+        
+    }
+
+    main{
+        text-align: center;
+        padding: 5px;
+        margin: auto;
+        background-color: var(--cor-background);
+        width: 85vw;
+        height: 90vh;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .logo {
+        padding: 2vw 2vw 0vw 2vw ;
+        font-family: var(--font-destaque);
+        color: var(--cor-destaque);
+        font-size: 6vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+
+    .FirstButtom {
+        height: 8%;
+        width: 55%;
+        height: 80px;
+        background-color: var(--cor-base);
+        border-radius: 10px;
+        border: 2px solid var(--cor-destaque);
+        margin-top: 10px;
+        
+        
+    }
+
+    .SecondButtom {
+        height: 8%;
+        width: 55%;
+        height: 80px;
+        background-color: var(--cor-base);
+        border-radius: 10px;
+        border: 2px solid var(--cor-destaque);
+        margin-top: 10px;
+    }
+
+    .ThirdButtom {
+        height: 8%;
+        width: 55%;
+        height: 80px;
+        background-color: var(--cor-base);
+        border-radius: 10px;
+        border: 2px solid var(--cor-destaque);
+        margin-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .footer{
+        color: var(--cor-base);
+        padding-top: 4%;
+        font-size: small;
+    }
+   
+}
+
+/* versao desktop 812 px a 1080px */
+
+@media screen and (min-width: 812px) and (max-width: 1950px) {
+
+
+    body{
+        background-color: var(--cor-base);
+        background-size: cover;
+    }
+
+    img{
+        width: 28%;
+        height: 28%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    h2{
+        color: var(--cor-destaque);
+        font-family: var(--font-corpo);
+        text-align: center;
+        font-size: 16px;
+        padding: 15px; 
+        
+    }
+
+    main{
+        text-align: center;
+        padding: 5px;
+        margin: auto;
+        background-color: var(--cor-background);
+        width: 95vw;
+        height: 90vh;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .logo {
+        font-family: var(--font-destaque);
+        color: var(--cor-destaque);
+        font-size: 3.5vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+
+    .FirstButtom {
+        height: 8%;
+        width: 40%;
+        height: 80px;
+        background-color: var(--cor-base);
+        border-radius: 10px;
+        border: 2px solid var(--cor-destaque);
+        margin-top: 10px;
+        
+        
+    }
+
+    .SecondButtom {
+        height: 8%;
+        width: 40%;
+        height: 80px;
+        background-color: var(--cor-base);
+        border-radius: 10px;
+        border: 2px solid var(--cor-destaque);
+        margin-top: 10px;
+    }
+
+    .ThirdButtom {
+        height: 8%;
+        width: 40%;
+        height: 80px;
+        background-color: var(--cor-base);
+        border-radius: 10px;
+        border: 2px solid var(--cor-destaque);
+        margin-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .footer{
+        color: var(--cor-base);
+        padding-top: 1%;
+        font-size: small;
+    }
+   
+
+}
+    
