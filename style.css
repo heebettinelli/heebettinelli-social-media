@@ -23,7 +23,7 @@
 
 @media screen and (min-width: 360px) and (max-width: 812px) {
     body{
-        background-color: var(--cor-base);
+        background-color: var(--cor-background);
         background-size: cover;
     }
 
