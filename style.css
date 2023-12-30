@@ -48,8 +48,8 @@
         padding: 5px;
         margin: auto;
         background-color: var(--cor-background);
-        width: 85vw;
-        height: 90vh;
+        width: 90vw;
+        height: 95vh;
         border-radius: 10px;
         position: absolute;
         top: 50%;
@@ -58,7 +58,6 @@
     }
 
     .logo {
-        padding: 2vw 2vw 0vw 2vw ;
         font-family: var(--font-destaque);
         color: var(--cor-destaque);
         font-size: 6vw;
@@ -76,8 +75,8 @@
 
     .FirstButtom {
         height: 8%;
-        width: 55%;
-        height: 80px;
+        width: 65%;
+        height: 70px;
         background-color: var(--cor-base);
         border-radius: 10px;
         border: 2px solid var(--cor-destaque);
@@ -88,8 +87,8 @@
 
     .SecondButtom {
         height: 8%;
-        width: 55%;
-        height: 80px;
+        width: 65%;
+        height: 70px;
         background-color: var(--cor-base);
         border-radius: 10px;
         border: 2px solid var(--cor-destaque);
@@ -98,8 +97,8 @@
 
     .ThirdButtom {
         height: 8%;
-        width: 55%;
-        height: 80px;
+        width: 65%;
+        height: 70px;
         background-color: var(--cor-base);
         border-radius: 10px;
         border: 2px solid var(--cor-destaque);
@@ -113,7 +112,7 @@
 
     .footer{
         color: var(--cor-base);
-        padding-top: 4%;
+        padding-top: 5%;
         font-size: small;
     }
    
